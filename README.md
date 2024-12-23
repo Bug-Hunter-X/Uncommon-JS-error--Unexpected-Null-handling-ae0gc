@@ -1,0 +1,3 @@
+# Uncommon JS Error: Unexpected Null Handling
+
+This repository demonstrates a common yet subtle error in JavaScript related to null value handling.  The provided `bug.js` file showcases the issue, where the function `foo` only handles explicit `null` values.  The `bugSolution.js` file presents a more robust solution to address potential issues caused by different types of falsy values (undefined, null, 0, false, etc.).
